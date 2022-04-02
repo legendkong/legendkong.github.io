@@ -9,6 +9,7 @@ html {
 
 body {
    vertical-align: middle;
+   text-align: center;
    background-color: #2b3137;
    color: white;
    font-family: -apple-system,
@@ -49,6 +50,10 @@ a{
    text-decoration: none;
 }
 
+a:hover {
+   text-decoration: underline;
+}
+
 .contact1 {
    display: inline-block;
    margin-right: 10px;
@@ -63,6 +68,20 @@ a{
 
 .contact3 {
    margin-top: 15px;
+   display: inline-block;
+   position: relative;
+   margin-right: 5px;
+}
+
+.contact4 {
+   margin-top: 15px;
+   display: inline-block;
+   position: relative;
+   margin-left: 5px;
+}
+
+.handles, .portfolio {
+   text-align: center;
 }
 
 i{
@@ -70,10 +89,54 @@ i{
    margin-right: 10px;
 }
 
-#linkedin{
+#linkedin, #resume{
    font-size: 30px;
+   color:#0E76A8
 }
 
-.handles{
-   text-align: center;
+#headcontribution{
+   margin-top : 100px;
+   margin-bottom : 0;
+}
+
+.repositories {
+   display: flex;
+   flex-flow: wrap;
+   justify-content: center;
+   align-items: center;
+}
+
+
+#repo1, #repo2, #repo3, #repo4, #repo5, #repo6 {
+   display: flex;
+   width: 7cm;
+   height: 2.5cm;
+   background-color: white;
+   margin: 10px;
+   padding: 20px;
+   border-radius: 5px;
+   color: #2b3137;
+}
+
+#break {
+   width: 100%;
+}
+
+.repolink {
+   color: #2b3137;
+   font-weight: bolder;
+}
+
+#ongoing {
+   color: red;
+}
+
+#completed {
+   color: green;
+}
+
+span {
+   margin-left: 10px;
+   margin-right: 10px;
+   font-size:x-small;
 }
