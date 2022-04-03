@@ -198,3 +198,56 @@ span {
    font-weight: bold;
    font-size: larger;
 }
+
+/* Hackathons and events */
+.hackathons{
+   display: flex;
+   flex-flow: wrap;
+   justify-content: center;
+   align-items: center;
+}
+
+#event1, #event2, #event3, #event4{
+      display: flex;
+      justify-content: center;
+      width: 15cm;
+      height: 4cm;
+      background-color: white;
+      margin: 10px;
+      padding: 20px;
+      border-radius: 5px;
+      color: #2b3137;
+      position: relative;
+}
+
+.column1 {
+   flex: 30%;
+   margin-top: 20px;
+}
+
+.column2 {
+   flex: 70%;
+   margin-top:20px;
+}
+
+#eventName {
+   color: #2b3137;
+   font-size: large;
+   text-decoration: none;
+   font-weight: bolder;
+}
+
+#eventLogo {
+   width: 3cm;
+   height: 3cm;
+}
+#eventLogo1 {
+   width: 3cm;
+   height: 3cm;
+   object-fit:scale-down;
+   
+}
+
+#event4 {
+   display: none;
+}
