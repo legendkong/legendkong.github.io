@@ -118,6 +118,11 @@ i{
    color: #2b3137;
 }
 
+/* To be done */
+#repo5, #repo6 {
+   display: none;
+}
+
 #break {
    width: 100%;
 }
@@ -127,6 +132,7 @@ i{
    font-weight: bolder;
 }
 
+/* Status of repository */
 #ongoing {
    color: red;
 }
@@ -135,8 +141,19 @@ i{
    color: green;
 }
 
+
 span {
    margin-left: 10px;
    margin-right: 10px;
    font-size:x-small;
+   
+}
+
+#repoName4 {
+   width: 100%;
+}
+
+#span4 {
+   position: relative;
+   top: 20px;
 }
