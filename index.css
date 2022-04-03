@@ -89,13 +89,18 @@ i{
    margin-right: 10px;
 }
 
-#linkedin, #resume{
+#linkedin{
    font-size: 30px;
    color:#0E76A8
 }
 
-#headcontribution{
-   margin-top : 100px;
+#resume{
+   font-size: 30px;
+   color: #A3C1AD;
+}
+
+#title{
+   margin-top : 60px;
    margin-bottom : 0;
 }
 
@@ -107,7 +112,7 @@ i{
 }
 
 
-#repo1, #repo2, #repo3, #repo4, #repo5, #repo6 {
+#repo1, #repo2, #repo3, #repo4, #repo5, #repo6, #repo7, #repo8, #repo9, #repo10, #repo11, #repo12 {
    display: flex;
    width: 7cm;
    height: 2.5cm;
@@ -119,7 +124,7 @@ i{
 }
 
 /* To be done */
-#repo5, #repo6 {
+#repo5, #repo6, #repo10, #repo11, #repo12 {
    display: none;
 }
 
@@ -156,4 +161,40 @@ span {
 #span4 {
    position: relative;
    top: 20px;
+}
+
+/* Skills section */
+.skills {
+   display: flex;
+   flex-flow: wrap;
+   justify-content: center;
+   align-items: center;
+}
+
+#skill1, #skill2, #skill3, #skill4, #skill5, #skill6, #skill7, #skill8, #skill9 {
+   display: flex;
+   justify-content: center;
+   width: 7cm;
+   height: 4cm;
+   background-color: white;
+   margin: 10px;
+   padding: 20px;
+   border-radius: 5px;
+   color: #2b3137;
+   position: relative;
+
+}
+
+.skillsLogo {
+   margin-top: 20px;
+   width: 2cm;
+   height: 2cm;
+   width: 100%;
+}
+
+.skillsName {
+   position: absolute;
+   bottom: 30px;   
+   font-weight: bold;
+   font-size: larger;
 }
