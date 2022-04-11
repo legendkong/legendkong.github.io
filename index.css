@@ -124,7 +124,7 @@ i{
 }
 
 /* To be done */
-#repo6, #repo10, #repo11, #repo12 {
+#repo6, #repo8, #repo9, #repo10, #repo11, #repo12 {
    display: none;
 }
 
@@ -171,7 +171,7 @@ span {
    align-items: center;
 }
 
-#skill1, #skill2, #skill3, #skill4, #skill5, #skill6, #skill7, #skill8, #skill9 {
+#skill1, #skill2, #skill3, #skill4, #skill5, #skill6, #skill7, #skill8, #skill9, #skill10 {
    display: flex;
    justify-content: center;
    width: 7cm;
@@ -246,8 +246,4 @@ span {
    height: 3cm;
    object-fit:scale-down;
    
-}
-
-#event4 {
-   display: none;
 }
