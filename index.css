@@ -210,8 +210,8 @@ span {
 #event1, #event2, #event3, #event4{
       display: flex;
       justify-content: center;
-      width: 15cm;
-      height: 4cm;
+      width: 16cm;
+      height: 5cm;
       background-color: white;
       margin: 10px;
       padding: 20px;
@@ -246,4 +246,14 @@ span {
    height: 3cm;
    object-fit:scale-down;
    
+}
+
+#gsengage2021 {
+   color: lightblue;
+   text-decoration: underline;
+   font-weight: bolder;
+}
+
+#firstplace {
+   color: gold;
 }
