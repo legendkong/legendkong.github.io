@@ -89,6 +89,13 @@ i {
   color: #0e76a8;
 }
 
+#medium {
+  font-size: 28px;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+}
+
 #resume {
   font-size: 30px;
   color: #a3c1ad;
@@ -106,18 +113,19 @@ i {
   align-items: center;
 }
 
+.worksamples {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
 #repo1,
 #repo2,
 #repo3,
 #repo4,
 #repo5,
-#repo6,
-#repo7,
-#repo8,
-#repo9,
-#repo10,
-#repo11,
-#repo12 {
+#repo6 {
   display: flex;
   width: 9cm;
   height: 2.5cm;
@@ -128,8 +136,23 @@ i {
   color: #2b3137;
 }
 
-/* To be done */
+#repo7,
 #repo8,
+#repo9,
+#repo10,
+#repo11,
+#repo12 {
+  display: flex;
+  width: 19cm;
+  height: 3cm;
+  background-color: white;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 5px;
+  color: #2b3137;
+}
+
+/* To be done */
 #repo9,
 #repo10,
 #repo11,
@@ -137,13 +160,57 @@ i {
   display: none;
 }
 
+.companylogo {
+  padding-top: 10px;
+}
+
 #break {
   width: 100%;
 }
-
 .repolink {
   color: #2b3137;
   font-weight: bolder;
+}
+
+.publications-flex {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.publicationsLink {
+  color: #2b3137;
+  font-weight: bolder;
+  text-align: left;
+  padding-left: 10px;
+}
+.publicationsContent {
+  text-align: left;
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+#article1,
+#article2 {
+  display: flex;
+  flex-flow: wrap;
+  width: 10.5cm;
+  height: 3.5cm;
+  background-color: white;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 5px;
+  color: #2b3137;
+}
+
+.minutesRead {
+  text-align: right;
+  margin-right: -160px;
+  margin-bottom: -160px;
+  height: 0.4cm;
+  margin-left: 9cm;
+  background-color: papayawhip;
 }
 
 /* Status of repository */
@@ -230,10 +297,11 @@ span {
   display: flex;
   justify-content: center;
   width: 16cm;
-  height: 5cm;
+  height: 4cm;
   background-color: white;
   margin: 10px;
   padding: 20px;
+  padding-right: 60px;
   border-radius: 5px;
   color: #2b3137;
   position: relative;
@@ -267,7 +335,7 @@ span {
 }
 
 #gsengage2021 {
-  color: lightblue;
+  color: blueviolet;
   text-decoration: underline;
   font-weight: bolder;
 }
