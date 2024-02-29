@@ -129,6 +129,11 @@ i {
   margin-left: 12px;
 }
 
+#sapImage {
+  margin-top: 20px;
+  margin-left: 12px;
+}
+
 #repo1,
 #repo2,
 #repo3,
@@ -162,7 +167,6 @@ i {
 }
 
 /* To be done */
-#repo10,
 #repo11,
 #repo12 {
   display: none;
